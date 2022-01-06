@@ -1,0 +1,9 @@
+import pandas as pd
+
+_2D_list = [['Anju',15,'Batch1'],
+            ['Anu',17,'Batch1'],
+            ['Athira',61,'Batch2']]
+
+dataframe = pd.DataFrame(_2D_list, columns = ['Name','RNo','Batch'])
+
+print(dataframe)
